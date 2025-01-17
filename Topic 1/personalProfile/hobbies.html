@@ -20,7 +20,7 @@
         height: 100vh;
       }
 
-      .header-div {
+      .header {
         margin: 0;
         position: fixed;
         left: 0;
@@ -30,7 +30,7 @@
         background-color: rgb(247, 243, 234);
       }
 
-      .header {
+      .header-div {
         text-align: center;
         height: 25px;
         margin: 4px 0 0 0;
@@ -107,10 +107,11 @@
   </head>
   <body>
     <div class="wrapper-div">
-      <div class="header-div">
+      <header class="header">
         <!--Using sematic html-->
-        <header class="header">
+        <div class="header-div">
           <h1 class="h1">Personal Profile</h1>
+          <!--Navigation bar to display the section of the website-->
           <nav>
             <h2 class="about-me"><a href="./aboutMe.html">About Me</a></h2>
             <h2 class="hobbies">Hobbies</h2>
@@ -119,9 +120,8 @@
             <h2 class="events">Future Events</h2>
             <h2 class="contact-me">Contact Me</h2>
           </nav>
-        </header>
-        <!--Navigation bar to display the section of the website-->
-      </div>
+        </div>
+      </header>
     </div>
     <footer class="footer">
       <font size="3" color="steelblue">@salidamaharjan</font>

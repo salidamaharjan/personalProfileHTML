@@ -24,7 +24,7 @@
         height: 100vh;
       }
 
-      .header-div {
+      .header {
         margin: 0;
         position: fixed;
         left: 0;
@@ -34,7 +34,7 @@
         background-color: rgb(247, 243, 234);
       }
 
-      .header {
+      .header-div {
         text-align: center;
         height: 25px;
         margin: 4px 0 0 0;
@@ -215,9 +215,9 @@
   <body>
     <!--create a main container for the page and class attribute to insert style-->
     <div class="wrapper-div">
-      <div class="header-div">
+      <header class="header">
         <!--Using sematic html-->
-        <header class="header">
+        <div class="header-div">
           <h1 class="h1">Personal Profile</h1>
           <!--Navigation bar to display the section of the website-->
           <nav>
@@ -228,8 +228,8 @@
             <h2 class="events">Future Events</h2>
             <h2 class="contact-me">Contact Me</h2>
           </nav>
-        </header>
-      </div>
+        </div>
+      </header>
       <main>
         <section class="section-main section-header">
           <!--img tag to add image to the website, src contains path to locate the image file-->
