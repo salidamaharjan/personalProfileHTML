@@ -19,7 +19,6 @@
         padding: 8px;
         height: 100vh;
       }
-
       .header {
         margin: 0;
         position: fixed;
@@ -29,14 +28,12 @@
         height: 60px;
         background-color: rgb(247, 243, 234);
       }
-
       .header-div {
         text-align: center;
         height: 25px;
         margin: 4px 0 0 0;
         padding-bottom: 6px;
       }
-
       /* nav tag */
       nav {
         display: flex;
@@ -44,7 +41,6 @@
         text-align: center;
         margin: 0 8px;
       }
-
       /* h1 tag */
       h1 {
         font-size: x-large;
@@ -53,7 +49,6 @@
         color: steelblue;
         font-weight: 800;
       }
-
       /* h2 tag */
       h2 {
         margin: 0;
@@ -66,8 +61,13 @@
       h3 {
         margin: 0;
         font-family: sans-serif;
-        font-size: larger;
+        font-size: x-large;
         color: steelblue;
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
       }
       a,
       a:link,
@@ -75,26 +75,22 @@
         text-decoration: none;
         color: black;
       }
-
       .about-me {
         border: 1px solid black;
         border-radius: 5px 0 0 5px;
         background-color: white;
       }
-
       .hobbies {
         border: 1px solid green;
         border-left: 0;
         color: green;
         background-color: hwb(76 41% 7%);
       }
-
       .events {
         border-top: 1px solid black;
         border-bottom: 1px solid black;
         background-color: white;
       }
-
       .galleries {
         border: 1px solid black;
         background-color: white;
@@ -116,19 +112,28 @@
         display: flex;
       }
       .section-header {
-        border: 1px solid orange;
-        background-color: rgb(247, 202, 176);
+        border: 1px solid rgb(244, 231, 82);
+        background-color: rgb(246, 246, 167);
         gap: 20px;
         margin-top: 65px;
       }
-      .travel-p {
+      p {
         margin: 0;
+        font-size: x-large;
+        font-family: sans-serif;
       }
       .travel-div {
         display: flex;
         flex-direction: column;
         gap: 6px;
         justify-content: center;
+      }
+      .section-video {
+        flex-direction: column;
+        gap: 4px;
+        border: 1px solid rgb(244, 231, 82);
+        background-image: url("./assets/images/videoRecording.png");
+        height: 200px;
       }
     </style>
   </head>
@@ -161,10 +166,8 @@
           <div class="travel-div">
             <h3>Traveling</h3>
             <p class="travel-p">
-              <font face="sans-serif" size="4"
-                >I love traveling to new places. Experiences the culture, art,
-                nature and food. Check out the places I have seen.
-              </font>
+              I love traveling to new places. Experiences the culture, art,
+              nature and food. Check out the places I have seen
               <a
                 href="./galleries.html"
                 style="
@@ -172,15 +175,29 @@
                   border-radius: 5px;
                   padding: 3px;
                   color: green;
-                  font-size: large;
+                  font-size: x-large;
                 "
                 >Places Visited</a
               >
             </p>
           </div>
         </section>
-        <section class="section-main section-edu">
-          <h3>Education</h3>
+        <section class="section-main section-video">
+          <h3>Video Recording</h3>
+          <p>
+            I love taking picture. I love capturing moments. View my recordings
+            <a
+              href="./galleries.html"
+              style="
+                border: solid green 1px;
+                border-radius: 5px;
+                padding: 3px;
+                color: green;
+                font-size: x-large;
+              "
+              >Videos</a
+            >
+          </p>
         </section>
       </main>
       <footer class="footer">
