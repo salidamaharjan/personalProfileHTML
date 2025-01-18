@@ -8,6 +8,9 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 
 ![Image of the landing page od the website](assets/images/AboutMePage.png)
 
+- The viewer can click on the Hobbies tab and Galleries tab.
+- The viewer can find the link on the hobbies page which leads to Galleries tab and could find the related videos and pictures.
+
 ## Table of Content
 
 1. Installation
@@ -21,7 +24,7 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 
 ## Usage
 
-- View the about me section when entered `http://127.0.0.1:5500/personalProfile/index.html`
+- View the about me section when entered `http://127.0.0.1:5500/Topic1/personalProfile/aboutMe.html`
 
 ## Credits
 
@@ -32,8 +35,7 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 
 ## Future Development
 
-- Build pages for the component of navigation bar and set color to green when then component is selected.
-- Navigate to the pages.
+- Build remaining pages for the nav bar.
 - Get rid of internal CSS from index.html and use external Link for CSS.
 - Use JavaScript to support event handling.
 - Use BootStrap, Jquery.
