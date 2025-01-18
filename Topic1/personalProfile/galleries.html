@@ -114,6 +114,9 @@
         padding: 20px;
         padding-left: 30px;
         display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
       }
       .section-header {
         border: 1px solid orange;
@@ -125,6 +128,34 @@
         margin: 0;
         font-size: x-large;
         font-family: sans-serif;
+      }
+      .placesPics {
+        display: flex;
+        gap: 20px;
+      }
+      .placeName {
+        font-size: x-large;
+        font-family: sans-serif;
+        text-align: center;
+      }
+      .section-video {
+        border: 1px solid rgb(85, 244, 82);
+        background-color: rgb(195, 238, 188);
+      }
+      .video {
+        display: flex;
+        gap: 50px;
+      }
+      .section-audio {
+        border: 1px solid plum;
+        background-color: rgb(246, 206, 246);
+      }
+      .footer {
+        margin: 0;
+        text-align: center;
+        padding-bottom: 4px;
+        font-size: x-large;
+        color: steelblue;
       }
     </style>
   </head>
@@ -146,9 +177,94 @@
         </div>
       </header>
       <main>
-        <section class="section-main section-header"></section>
-        <section class="section-main section-video"></section>
-        <section class="section-main section-video"></section>
+        <section class="section-main section-header">
+          <h3>Places visited</h3>
+          <div class="placesPics">
+            <div>
+              <img
+                src="./assets/images/Banff.webp"
+                height="300px"
+                width="300px"
+                alt="Picture of Banff, Canada"
+              />
+              <div class="placeName">Banff, Canada</div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/aspen.jpg"
+                height="300px"
+                width="300px"
+                alt="Picture of Aspen, Colorado"
+              />
+              <div class="placeName">Aspen, Colorado</div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/newyork.png"
+                height="300px"
+                width="300px"
+                alt="Picture of New York City"
+              />
+              <div class="placeName">New York</div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/vegas.webp"
+                height="300px"
+                width="300px"
+                alt="Picture of Las Vegas, Nevada"
+              />
+              <div class="placeName">Las Vegas</div>
+            </div>
+            <div>
+              <img
+                src="./assets/images/MachinawIsland.jpg"
+                height="300px"
+                width="300px"
+                alt="Picture of Mackinaw Island"
+              />
+              <div class="placeName">Mackinaw Island, Michigan</div>
+            </div>
+          </div>
+        </section>
+        <section class="section-main section-video">
+          <h3>Videos Created</h3>
+          <div class="video">
+            <video width="600" height="300" controls>
+              <source
+                src="./assets/media/Duluth, Minnesota.mp4"
+                type="video/mp4"
+              />
+              Your browser does not support video tag.
+            </video>
+            <video width="600" height="300" controls>
+              <source src="./assets/media/NewYear.mp4" type="video/mp4" />
+              Your browser does not support video tag.
+            </video>
+          </div>
+        </section>
+        <section class="section-main section-audio">
+          <h3>Music Collection</h3>
+          <div class="video">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/nLMFN9X6BWE?si=jo6FREFybFUfYa5q"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+            <audio controls>
+              <source
+                src="./assets/media/rainy-day-in-town-with-birds-singing-194011.mp3"
+                type="audio/mp3"
+              />
+              Your browser does not support audio tag.
+            </audio>
+          </div>
+        </section>
       </main>
       <footer class="footer">@salidamaharjan</footer>
     </div>
