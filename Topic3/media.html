@@ -4,6 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Video and Audio Media</title>
+    <style>
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink_me-alarm {
+        animation: blinker 2s step-start infinite;
+        color: red;
+      }
+    </style>
     <link rel="stylesheet" href="./css/mysite.css" type="text/css" />
   </head>
   <body>
@@ -25,7 +36,7 @@
         Your browser does not support video tag.
       </video>
       <br />
-      <svg width="400" height="20">
+      <!-- <svg width="400" height="20">
         <text x="125" y="15" fill="red">Student Support Video Clip</text>
         <animate
           attributeType="CSS"
@@ -35,8 +46,8 @@
           repeatCount="indefinite"
         />
         Your browser does not support inline SVG.
-      </svg>
-      <!-- <h4>Student Support Video Clip</h4> -->
+      </svg> -->
+      <h4 class="blink_me-alarm">Student Support Video Clip</h4>
       <br />
       <audio controls>
         <source
@@ -46,7 +57,7 @@
         Your browser does not support audio tag.
       </audio>
       <br />
-      <svg width="400" height="20">
+      <!-- <svg width="400" height="20">
         <text x="125" y="15" fill="red">Student Support Audio Clip</text>
         <animate
           attributeType="CSS"
@@ -56,9 +67,9 @@
           repeatCount="indefinite"
         />
         Your browser does not support inline SVG.
-      </svg>
+      </svg> -->
       <br />
-      <!-- <h4>Student Support Audio Clip</h4> -->
+      <h4 class="blink_me-alarm">Student Support Audio Clip</h4>
       <br />
       <a href="./index.html">Back to Main Page</a>
     </div>
