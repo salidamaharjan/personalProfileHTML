@@ -1,0 +1,217 @@
+/* Selecting body tag */
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      /* Using dot(.) to select the class*/
+      .wrapper-div {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        background-color: rgb(247, 243, 234);
+        padding: 8px;
+        height: 100vh;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
+      .header {
+        margin: 0;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 90px;
+        background-color: rgb(247, 243, 234);
+      }
+
+      .header-div {
+        text-align: center;
+        height: 25px;
+        margin: 4px 0 0 0;
+        padding-bottom: 6px;
+      }
+
+      /* nav tag */
+      nav {
+        display: flex;
+        justify-self: center;
+        flex-grow: 1;
+        text-align: center;
+        margin: 0 8px;
+      }
+
+      /* h1 tag */
+      h1 {
+        font-size: xx-large;
+        margin: 0;
+        font: sans-serif;
+        color: steelblue;
+        font-weight: 800;
+        padding: 10px 0;
+      }
+
+      /* h2 tag */
+      h2 {
+        margin: 0;
+        padding: 4px 8px;
+        font: sans-serif;
+        font-size: x-large;
+        width: 200px;
+      }
+
+      a,
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: black;
+      }
+
+      .about-me {
+        border: 1px solid green;
+        border-radius: 5px 0 0 5px;
+        color: green;
+        background-color: hwb(76 41% 7%);
+      }
+
+      .hobbies {
+        border: 1px solid black;
+        border-left: 0;
+        background-color: white;
+      }
+
+      .events {
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        background-color: white;
+      }
+
+      .galleries {
+        border: 1px solid black;
+        background-color: white;
+      }
+
+      .contact-me {
+        border: 1px solid black;
+        border-radius: 0 5px 5px 0;
+        background-color: white;
+      }
+
+      .section-main {
+        border-radius: 5px;
+        padding: 20px;
+        padding-left: 30px;
+        display: flex;
+      }
+
+      .section-header {
+        border: 1px solid plum;
+        background-color: rgb(246, 206, 246);
+        gap: 20px;
+        margin-top: 65px;
+      }
+
+      .profile-img {
+        border-radius: 50%;
+        border: 1px solid rgb(255, 217, 0);
+      }
+
+      .section-edu {
+        border: 1px solid orange;
+        background-color: rgb(247, 202, 176);
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      /* h3 tag */
+      h3 {
+        margin: 0;
+      }
+
+      .edu-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 14px;
+        margin: 0;
+        font-size: x-large;
+        font-family: sans-serif;
+        font-weight: bolder;
+      }
+
+      .edu-detail {
+        display: flex;
+        gap: 20px;
+        margin: 4px;
+        align-items: center;
+      }
+
+      .intro-p {
+        margin: 0;
+      }
+
+      .li-edu-list {
+        margin: 5px 0;
+      }
+
+      .edu-title {
+        font-weight: normal;
+      }
+
+      .aside-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+
+      .aside-exp {
+        border: 1px solid rgb(244, 231, 82);
+        background-color: rgb(246, 246, 167);
+      }
+
+      .aside-skill {
+        border: 1px solid rgb(153, 185, 244);
+        background-color: rgb(204, 220, 249);
+      }
+
+      .section-goal {
+        border: 1px solid rgb(85, 244, 82);
+        background-color: rgb(195, 238, 188);
+      }
+
+      .footer {
+        margin: 0;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 4px;
+        font-size: larger;
+        background-color: rgb(247, 243, 234);
+      }
+
+      .section-li {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .ul-common {
+        padding-left: 10px;
+        font-family: sans-serif;
+        font-size: x-large;
+        margin: 0;
+      }
+
+      .intro-div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+      }
