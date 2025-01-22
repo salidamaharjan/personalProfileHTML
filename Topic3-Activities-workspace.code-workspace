@@ -7,5 +7,7 @@
 			"path": "Topic3"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "workspaceCST-120"
+	}
 }
