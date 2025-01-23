@@ -264,3 +264,29 @@
         display: flex;
         justify-content: space-between;
       }
+      .travel-div {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        justify-content: center;
+      }
+      .aside-newThings {
+        border: 1px solid rgb(153, 185, 244);
+        background-color: rgb(204, 220, 249);
+        text-align: center;
+      }
+      .aside-music {
+        border: 1px solid rgb(85, 244, 82);
+        background-color: rgb(195, 238, 188);
+      }
+      .recording {
+        flex-direction: column;
+        gap: 4px;
+        border: 1px solid rgb(244, 231, 82);
+        background-image: url("../assets/images/videoRecording.png");
+        height: 200px;
+      }
+      .hobbies-header {
+        border: 1px solid rgb(244, 231, 82);
+        background-color: rgb(246, 246, 167);
+      }
