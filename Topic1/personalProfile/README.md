@@ -8,7 +8,7 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 
 ![Image of the landing page od the website](assets/images/AboutMePage.png)
 
-- The viewer can click on the Hobbies tab and Galleries tab.
+- The viewer can click on tabs.
 - The viewer can find the link on the hobbies page which leads to Galleries tab and could find the related videos and pictures.
 
 ## Table of Content
@@ -34,9 +34,6 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 - Class Discussion
 
 ## Future Development
-
-- Build remaining pages for the nav bar.
-- Get rid of internal CSS from index.html and use external Link for CSS.
 - Use JavaScript to support event handling.
 - Use BootStrap, Jquery.
 - Make a responsive design.

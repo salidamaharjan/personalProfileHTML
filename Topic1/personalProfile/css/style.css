@@ -1,8 +1,9 @@
-/* Selecting body tag */
+      /* Selecting body tag */
       body {
         padding: 0;
         margin: 0;
       }
+
       /* Using dot(.) to select the class*/
       .wrapper-div {
         display: flex;
@@ -13,6 +14,7 @@
         height: 100vh;
       }
 
+      /*Selecting the HTML tag*/
       main {
         display: flex;
         flex-direction: column;
@@ -66,6 +68,8 @@
         width: 200px;
       }
 
+      /* Select multiple selectors */
+      /* Remove the default style for link */
       a,
       a:link,
       a:visited {
@@ -73,6 +77,7 @@
         color: black;
         background-color: white;
       }
+
       /* tab when not selected */
       .tab {
         border: 1px solid black;
@@ -148,6 +153,7 @@
         color: steelblue;
       }
 
+      /* Using grid layout to display two columns */
       .edu-list {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -212,34 +218,40 @@
         color: steelblue;
         background-color: rgb(247, 243, 234);
       }
+
       .section-li {
         display: flex;
         flex-direction: column;
         gap: 4px;
       }
+
       .ul-common {
         padding-left: 10px;
         font-family: sans-serif;
         font-size: x-large;
         margin: 0;
       }
+
       .intro-div {
         display: flex;
         flex-direction: column;
         gap: 6px;
         justify-content: center;
       }
+
       .placesPics {
         display: flex;
         gap: 20px;
         justify-content: space-evenly;
         flex-wrap: wrap;
       }
+
       .placeName {
         font-size: x-large;
         font-family: sans-serif;
         text-align: center;
       }
+
       .section-video {
         text-align: center;
         flex-direction: column;
@@ -261,25 +273,31 @@
         border: 1px solid rgb(85, 244, 82);
         background-color: rgb(195, 238, 188);
       }
+      
       .audio-div {
         display: flex;
         justify-content:space-around;
       }
+
       .travel-div {
         display: flex;
         flex-direction: column;
         gap: 6px;
         justify-content: center;
       }
+
       .aside-newThings {
         border: 1px solid rgb(153, 185, 244);
         background-color: rgb(204, 220, 249);
         text-align: center;
       }
+
       .aside-music {
         border: 1px solid rgb(85, 244, 82);
         background-color: rgb(195, 238, 188);
       }
+
+      /* Set background image */
       .recording {
         flex-direction: column;
         gap: 4px;
@@ -287,13 +305,16 @@
         background-image: url("../assets/images/videoRecording.png");
         height: 200px;
       }
+
       .hobbies-header {
         border: 1px solid rgb(244, 231, 82);
         background-color: rgb(246, 246, 167);
       }
+
       .life-header {
         display: flex;
       }
+
       .home {
         background-image: url("../assets/images/kathmandu.jpg");
         background-repeat: no-repeat;
