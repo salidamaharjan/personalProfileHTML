@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper-div">
-      <header class="header">
+      <header class="header" style="height: 110px">
         <!--Using sematic html-->
         <div class="header-div">
           <h1 class="h1">Personal Profile</h1>
@@ -29,13 +29,13 @@
           </nav>
         </div>
       </header>
-      <main>
+      <main style="background-color: cadetblue; height: 100dvh">
         <article class="section-main section-header form-msg">
           <form class="message-form">
             <div>
               <label for="name">Enter your name: </label>
               <input
-                style="font-size: large; width: 300px"
+                style="font-size: larger; width: 300px; border-radius: 5px"
                 type="text"
                 name="name"
                 id="name"
@@ -45,7 +45,7 @@
             <div>
               <label for="email">Enter your email: </label>
               <input
-                style="font-size: large; width: 300px"
+                style="font-size: larger; width: 300px; border-radius: 5px"
                 type="email"
                 name="email"
                 id="email"
@@ -55,7 +55,7 @@
             <div>
               <label for="message">Type Your Message: </label>
               <textarea
-                style="font-size: large"
+                style="font-size: larger; border-radius: 5px"
                 type="textarea"
                 name="email"
                 id="email"
@@ -67,7 +67,30 @@
             </div>
           </form>
         </article>
-        <article class="section-main section-header"></article>
+        <article class="section-main section-header contact">
+          <div
+            style="
+              font-family: sans-serif;
+              font-size: x-large;
+              color: white;
+              font-weight: bold;
+            "
+          >
+            You can reach me at:
+            <a
+              style="color: green"
+              href="https://www.linkedin.com/login?emailAddress=&fromSignIn=&fromSignIn=true&session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fjobs%2Fview%2Fentry-level-software-developer-with-java-entry-level-data-scientist-at-synergisticit-4078431126%3Futm_campaign%3Dgoogle_jobs_apply%26utm_source%3Dgoogle_jobs_apply%26utm_medium%3Dorganic&trk=public_jobs_nav-header-signin"
+              target="_blank"
+              >LinkedIn</a
+            >
+            <a
+              style="color: green"
+              href="https://x.com/i/flow/login"
+              target="_blank"
+              >Tweeter</a
+            >
+          </div>
+        </article>
       </main>
       <footer class="footer">@salidamaharjan</footer>
     </div>
