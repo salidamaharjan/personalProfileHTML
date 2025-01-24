@@ -430,6 +430,27 @@
       transform: scale(1.2);
       height: 100px;
     }
-    
-  
-      
+    .places-to-visit {
+      background-image: url("../assets/images/placesTOVisit.jpg");
+      height: 400px;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%; 
+      font-family: sans-serif;
+      font-size: x-large;
+    }
+    .activities-to-do {
+      background-image: url("../assets/images/newThings.webp");
+      height: 400px;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%; 
+      font-family: sans-serif;
+      font-size: x-large;
+    }
+    .activities-to-do h3{
+      color: white;
+    }
+    .activities-to-do li {
+      color:rgb(195, 238, 188)
+    }
