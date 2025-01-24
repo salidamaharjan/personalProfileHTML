@@ -291,3 +291,138 @@
         border: 1px solid rgb(244, 231, 82);
         background-color: rgb(246, 246, 167);
       }
+      .life-header {
+        display: flex;
+      }
+      .home {
+        background-image: url("../assets/images/kathmandu.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+        height: 800px;
+      }
+      .home h3 {
+        color: blue;
+      }
+      .home p {
+        color: white;
+      }
+    
+      .opportunity {
+        background-image: url("../assets/images/Minnesota.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: 100% 100%;
+        height: 800px;
+      }
+      .opportunity h3 {
+        color: orange;
+      }
+      .opportunity p {
+        color: white;
+      }
+      .bucketlist {
+        display: flex;
+        flex-direction: column;
+        height:200px
+      }
+      .bucketlist li {
+        border: solid blue 1px;
+        padding: 4px 4px;
+        text-align: center;
+      }
+      
+      .place-bucket ol {
+        display: flex;
+        gap: 5rem;
+      } 
+
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+     
+      .instruction {
+        display: block;
+        font-size: x-large;
+        font-family: sans-serif;
+        animation: blinker 3s step-start infinite;
+        color: green;
+      }
+
+     .chitwan {
+      position: relative;
+     }
+
+     .chitwan:hover::before {
+      content: url("../assets/images/Sauraha.webp");
+      position: absolute;
+      top: 40px;
+      left:-10px;
+      transform: scale(1);
+      height: 100px;
+    }
+    .dolakha{
+      position: relative;
+    }
+
+    .dolakha:hover::before {
+      content: url("../assets/images/Dolakha.jpg");
+      position: absolute;
+      top: 30px;
+      left:-300px;
+      transform: scale(0.8);
+      height: 100px;
+    }
+    .chicago {
+      position: relative;
+    }
+
+    .chicago:hover::before {
+      content: url("../assets/images/chicago.avif");
+      position: absolute;
+      top: 40px;
+      left:-300px;
+      transform: scale(1);
+      height: 100px;
+    }
+    .sd {
+      position: relative;
+    }
+
+    .sd:hover::before {
+      content: url("../assets/images/sd.jpg");
+      position: absolute;
+      top: 90px;
+      left:-300px;
+      transform: scale(2);
+      height: 100px;
+    }
+    .chandragiri {
+      position: relative;
+    }
+
+    .chandragiri:hover::before {
+      content: url("../assets/images/chandragiri.jpg");
+      position: absolute;
+      top: 90px;
+      left:-100px;
+      transform: scale(2);
+      height: 100px;
+    }
+    .oc {
+      position: relative;
+    }
+
+    .oc:hover::before {
+      content: url("../assets/images/oc.jpeg ");
+      position: absolute;
+      top: 50px;
+      left:-700px;
+      transform: scale(1.2);
+      height: 100px;
+    }
+    
+  
+      
