@@ -123,6 +123,7 @@
       .aboutMe-header {
         background-image: url(../assets/images/intro.jpeg);
         border: 1px solid plum;
+        height: 25dvh ;
       }
 
       .galleries-header {
@@ -144,6 +145,7 @@
         background-image: url(../assets/images/edu.jpg);
         flex-direction: column;
         gap: 4px;
+        height: 20dvh;
       }
 
       h3 {
@@ -194,6 +196,7 @@
       .aside-exp {
         background-image: url(../assets/images/exp.jpg);
         border: 1px solid rgb(244, 231, 82);
+        height: 20dvh;
       }
 
       .aside-skill {
@@ -204,6 +207,7 @@
       .section-goal {
         border: 1px solid rgb(85, 244, 82);
         background-color: rgb(195, 238, 188);
+        height: 15dvh;
       }
 
       .footer {
@@ -272,8 +276,9 @@
         gap: 2rem;
         border: 1px solid plum;
         background-color: rgb(243, 199, 243);
+      }
 
-            }      .audio-div {
+       .audio-div {
         display: flex;
         justify-content:space-around;
       }
