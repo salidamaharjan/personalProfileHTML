@@ -373,7 +373,8 @@
       
       .place-bucket ol {
         display: flex;
-        gap: 5rem;
+        flex-direction: column;
+        gap: 2rem;
         color: rgb(95, 26, 155)
       } 
 
