@@ -145,7 +145,7 @@
       }
 
       .section-edu {
-        border: 1px solid orange;
+        border: 1px solid green;
         background-image: url(../assets/images/edu.jpg);
         flex-direction: column;
         gap: 4px;
