@@ -291,10 +291,12 @@
       }
 
       .aside-newThings {
+        padding: 4rem;
         border: 1px solid rgb(153, 185, 244);
         background-image: url(../assets/images/newThingsHob.jpeg);
         text-align: center;
         background-size: 100% 100%;
+        height: 20dvh;
       }
 
       .aside-music {
@@ -306,17 +308,20 @@
 
       /* Set background image */
       .recording {
+        padding: 4rem;
         flex-direction: column;
         gap: 4px;
         border: 1px solid rgb(244, 231, 82);
         background-image: url("../assets/images/videoRecording.png");
-        height: 200px;
+        height: 20dvh;
       }
 
       .hobbies-header {
         border: 1px solid rgb(244, 231, 82);
         background-image: url(../assets/images/travelHob.jpeg);
-        background-color: rgb(246, 246, 167);
+        height: 20dvh;
+        padding: 4rem;
+
       }
 
       .life-header {
