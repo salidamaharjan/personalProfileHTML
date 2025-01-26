@@ -127,7 +127,7 @@
 
       .galleries-header {
         border: 1px solid orange;
-        background-color: rgb(247, 202, 176);
+        background-image: url(../assets/images/travelHob.jpeg);
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -256,8 +256,8 @@
         text-align: center;
         flex-direction: column;
         gap: 2rem;
-        border: 1px solid plum;
-        background-color: rgb(246, 206, 246);
+        border: 1px solid blue;
+        background-color: rgb(167, 198, 255);
       }
 
       .video-div {
@@ -270,11 +270,10 @@
         text-align: center;
         flex-direction: column;
         gap: 2rem;
-        border: 1px solid rgb(85, 244, 82);
-        background-color: rgb(195, 238, 188);
-      }
+        border: 1px solid plum;
+        background-color: rgb(243, 199, 243);
 
-      .audio-div {
+            }      .audio-div {
         display: flex;
         justify-content:space-around;
       }
