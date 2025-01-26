@@ -374,8 +374,8 @@
       .place-bucket ol {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
-        color: rgb(95, 26, 155)
+        gap: 3rem;
+        color: rgb(95, 26, 155);
       } 
 
       /* make the element blink in every 3 seconds */
@@ -402,9 +402,9 @@
      .chitwan:hover::before {
       content: url("../assets/images/Sauraha.webp");
       position: absolute;
-      top: 40px;
-      left:-10px;
-      transform: scale(1);
+      top: -120px;
+      left:200px;
+      transform: scale(0.5);
       height: 100px;
     }
 
@@ -477,9 +477,9 @@
     .oc:hover::before {
       content: url("../assets/images/oc.jpeg ");
       position: absolute;
-      top: 50px;
-      left:-840px;
-      transform: scale(1.2);
+      top: -450px;
+      left:200px;
+      transform: scale(.8);
       height: 100px;
     }
 
