@@ -288,13 +288,16 @@
 
       .aside-newThings {
         border: 1px solid rgb(153, 185, 244);
-        background-color: rgb(204, 220, 249);
+        background-image: url(../assets/images/newThingsHob.jpeg);
         text-align: center;
+        background-size: 100% 100%;
       }
 
       .aside-music {
         border: 1px solid rgb(85, 244, 82);
-        background-color: rgb(195, 238, 188);
+        background-image: url(../assets/images/musicOHb.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
       }
 
       /* Set background image */
@@ -308,6 +311,7 @@
 
       .hobbies-header {
         border: 1px solid rgb(244, 231, 82);
+        background-image: url(../assets/images/travelHob.jpeg);
         background-color: rgb(246, 246, 167);
       }
 
