@@ -432,9 +432,9 @@
     .chicago:hover::before {
       content: url("../assets/images/chicago.avif");
       position: absolute;
-      top: 40px;
-      left:-345px;
-      transform: scale(1);
+      top: -220px;
+      left:245px;
+      transform: scale(0.6);
       height: 100px;
     }
 
