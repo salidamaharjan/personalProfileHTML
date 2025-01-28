@@ -462,9 +462,9 @@
     .chandragiri:hover::before {
       content: url("../assets/images/chandragiri.jpg");
       position: absolute;
-      top: 90px;
-      left:-180px;
-      transform: scale(2);
+      top: -300px;
+      left:360px;
+      transform: scale(1);
       height: 100px;
     }
 
