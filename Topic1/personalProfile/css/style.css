@@ -402,10 +402,9 @@
      .chitwan:hover::before {
       content: url("../assets/images/Sauraha.webp");
       position: absolute;
-      top: -120px;
+      top: -360px;
       left:200px;
       transform: scale(0.5);
-      height: 100px;
     }
 
     .dolakha{
@@ -417,9 +416,9 @@
     .dolakha:hover::before {
       content: url("../assets/images/Dolakha.jpg");
       position: absolute;
-      top: 30px;
-      left:-320px;
-      transform: scale(0.8);
+      top: -200px;
+      left:140px;
+      transform: scale(0.3);
       height: 100px;
     }
 
