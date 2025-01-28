@@ -447,9 +447,9 @@
     .sd:hover::before {
       content: url("../assets/images/sd.jpg");
       position: absolute;
-      top: 90px;
-      left:-400px;
-      transform: scale(2);
+      top: -350px;
+      left:400px;
+      transform: scale(1);
       height: 100px;
     }
 
