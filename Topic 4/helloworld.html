@@ -6,8 +6,13 @@
     <title>Document</title>
   </head>
   <body>
-    <!-- Display txt before we start running JavaScript -->
     <p>Before running JavaScript</p>
     <div is="hello-text">This is the default text</div>
+    <script>
+      alert("Hello world");
+      document.getElementById("hello-text").innerHTML = "Hello world";
+      console.log("Hello world");
+    </script>
+    <p>After running JavaScript</p>
   </body>
 </html>
