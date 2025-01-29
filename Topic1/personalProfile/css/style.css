@@ -135,7 +135,6 @@
         flex-direction: column;
         align-items: center;
         gap: 20px;
-        height: 30dvh;
         color:blue
       }
 
@@ -149,7 +148,6 @@
         background-image: url(../assets/images/edu.jpg);
         flex-direction: column;
         gap: 4px;
-        height: 20dvh;
       }
 
       h3 {
@@ -323,7 +321,6 @@
       .hobbies-header {
         border: 1px solid rgb(244, 231, 82);
         background-image: url(../assets/images/travelHob.jpeg);
-        height: 20dvh;
         padding: 4rem;
       }
 
