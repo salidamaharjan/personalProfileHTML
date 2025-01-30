@@ -106,6 +106,14 @@
         for (let shape of shapes1) {
           console.log("The shape in " + shape);
         }
+
+        let now = new Date();
+        let birthday = new Date(1960, 9, 17, 0, 0, 0);
+        console.log("Current date and time is " + now);
+        console.log("Past date and time is " + birthday);
+        console.log(
+          "Time difference is " + (now.getYear() - birthday.getYear())
+        );
       }
     </script>
   </head>
