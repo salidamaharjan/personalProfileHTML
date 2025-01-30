@@ -114,6 +114,35 @@
         console.log(
           "Time difference is " + (now.getYear() - birthday.getYear())
         );
+
+        reusableCode();
+        result = add(15, 20);
+        console.log(" Result is " + result);
+
+        result = multiply(15, 20);
+        console.log(" Result is " + result);
+
+        shapes1.forEach(displayArray);
+
+        function reusableCode() {
+          console.log("Called the reusableCode() function");
+        }
+
+        function add(num1, num2) {
+          console.log("Adding numbers " + num1 + " and " + num2);
+          return num1 + num2;
+        }
+
+        function multiply(num1, num2) {
+          console.log("Multiplying numbers " + num1 + " and " + num2);
+          return num1 * num2;
+        }
+
+        function displayArray(value, index) {
+          console.log(
+            "From displayArray() the array value in " + value + " at " + index
+          );
+        }
       }
     </script>
   </head>
