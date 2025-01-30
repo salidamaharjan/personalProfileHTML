@@ -99,6 +99,13 @@
 
         shapes1.pop();
         console.log("Last shape in array is " + shapes1[shapes1.length - 1]);
+
+        shapes1.splice(0, 0, "Oval");
+        console.log("First shape in spliced array is " + shapes1[0]);
+
+        for (let shape of shapes1) {
+          console.log("The shape in " + shape);
+        }
       }
     </script>
   </head>
