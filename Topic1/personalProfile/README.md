@@ -10,6 +10,7 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 
 - The viewer can click on tabs.
 - The viewer can find the link on the hobbies page which leads to Galleries tab and could find the related videos and pictures.
+- The viewer can hover on the name of places visited on the LifeEvents page which shows the image of the place.
 
 ## Table of Content
 
@@ -34,6 +35,7 @@ This website is created using HTML (Hypertext markup Language) and internal CSS(
 - Class Discussion
 
 ## Future Development
+
 - Use JavaScript to support event handling.
 - Use BootStrap, Jquery.
 - Make a responsive design.
