@@ -2,6 +2,7 @@ window.onload=initialize;
 function initialize() {
     console.log("In initialize()");
     conditions();
+    loops();
 }
 function conditions() {
     let num1 = 10;
@@ -46,4 +47,28 @@ function conditions() {
             break;
     }
     num1 == num2 ? console.log("Using Ternary Operator - Number 1 is equal to Number 2") : console.log("Using Ternary Operator - Number 1 is not equal to Number 2");
+}
+
+function loops() {
+    let shapes = new Array('Triangle', 'Circle', 'Square');
+
+    for (index= 0; index < shapes.length; ++index) {
+        console.log("Using For Loop getting Array value of " + shapes[index] + " at " + index); 
+    }
+
+    for(index=0; index < shapes.length; ++ index) {
+        if (index%2 == 0) console.log("Array value of " + shapes[index] + "at even index of " + index);
+    }
+
+    let i = 0;
+    while(i < shapes.length){
+        console.log("Using While Loop getting Array value of " + shapes[i] + " at " + i);
+        ++i;
+    }
+
+    i = 0;
+    do {
+        console.log("Using Do While Loop getting Array value of " + shapes[i] + " at " + i);
+        ++i;
+    } while (i < shapes.length)
 }
