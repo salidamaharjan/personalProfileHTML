@@ -3,6 +3,7 @@ function initialize() {
     console.log("In initialize()");
     conditions();
     loops();
+    objects();
 }
 function conditions() {
     let num1 = 10;
@@ -71,4 +72,43 @@ function loops() {
         console.log("Using Do While Loop getting Array value of " + shapes[i] + " at " + i);
         ++i;
     } while (i < shapes.length)
+}
+function objects() {
+    let person1 = {
+        firstName: "Bob",
+        lastName: "Johnson",
+        age: 25,
+        occupation: "Student"
+    };
+    console.log('This is Person 1 ' + person1.firstName + ' ' + person1.lastName + ' who is of age ' + person1.age + ' and is a ' + person1.occupation);
+
+    let person2 = new Object();
+    person2.firstName = "Billy";
+    person2.lastName = "White";
+    person2.age = 35;
+    person2.occupation = "Professor";
+    console.log('This is Person 2 ' + person2.firstName + ' ' + person2.lastName + " who is of age " + person2.age + " and is a " + person2.occupation);
+    function Person(firstName, lastName, age, occupation) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+        this.occupation = occupation;
+    }
+    let person3 = new Person("Mary", "Jackson", 50, "Dean");
+    let person4 = new Person("John", "Lennon", 80, "Musician");
+    console.log('This is Person 3 ' + person3.firstName + ' ' + person3.lastName + ' who is of age ' + person3.age + ' and is a ' + person3.occupation);
+    console.log('This is Person 4 ' + person4.firstName + ' ' + person4.lastName + ' who is of age ' + person4.age + ' and is a ' + person4.occupation);
+
+    function EnhancedPerson(firstName, lastName, age, occupation) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = lastName;
+        this.occupation = occupation;
+        this.display = function(){
+            console.log("This is an Enhanced Person " + this.firstName + ' ' + this.lastName + ' who is of age ' + this.age + ' and is a ' + this.occupation);
+        }
+    }
+
+    let person5 = new EnhancedPerson("Paul", "McCartney", 78, "Musician");
+    person5.display();
 }
