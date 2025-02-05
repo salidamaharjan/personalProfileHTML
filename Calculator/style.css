@@ -1,0 +1,11 @@
+.main-wrapper {
+    border: 1px solid black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: x-large;
+}

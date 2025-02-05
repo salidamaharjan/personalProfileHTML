@@ -7,9 +7,14 @@
     <script src="./js/mycode.js"></script>
   </head>
   <body>
-    <div>Learning JavaScript</div>
+    <p id="title">Learning JavaScript</p>
     <button onclick="javascript:conditions()">Conditions</button>
     <button onclick="javascript:loops()">Loops</button>
     <button onclick="javascript:objects()">Objects</button>
   </body>
+  <script>
+    document.getElementById("title").addEventListener("click", function () {
+      alert("This is fun!");
+    });
+  </script>
 </html>
