@@ -10,8 +10,16 @@ let eight = document.getElementsByClassName("eight")[0];
 let nine = document.getElementsByClassName("nine")[0];
 let zero = document.getElementsByClassName("zero")[0];
 
-let num1 = display.innerHTML;
+let num1 = 0;
+let num2;
+let sum = 0;
+
 function btn1Click() {
+    num1 = sum;
+    num2 = parseInt(one.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     // console.log(display.innerHTML);
     if(display.innerHTML == 0) {
         display.innerHTML = one.innerHTML;
@@ -21,7 +29,11 @@ function btn1Click() {
 }
 
 function btn2Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(two.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = two.innerHTML;
     } else {
@@ -30,7 +42,11 @@ function btn2Click() {
 }
 
 function btn3Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(three.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = three.innerHTML;
     } else {
@@ -39,7 +55,11 @@ function btn3Click() {
 }
 
 function btn4Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(four.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = four.innerHTML;
     } else {
@@ -48,16 +68,24 @@ function btn4Click() {
 }
 
 function btn5Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(five.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
-        display.innerHTML = five;
+        display.innerHTML = five.innerHTML;
     } else {
         display.innerHTML = display.innerHTML + five.innerHTML;
     }
 }
 
 function btn6Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(six.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = six.innerHTML;
     } else {
@@ -66,7 +94,11 @@ function btn6Click() {
 }
 
 function btn7Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(seven.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = seven.innerHTML;
     } else {
@@ -75,7 +107,11 @@ function btn7Click() {
 }
 
 function btn8Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(eight.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = eight.innerHTML;
     } else {
@@ -84,7 +120,11 @@ function btn8Click() {
 }
 
 function btn9Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(nine.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = nine.innerHTML;
     } else {
@@ -93,7 +133,11 @@ function btn9Click() {
 }
 
 function btn0Click() {
-    // console.log(display.innerHTML);
+    num1 = sum;
+    num2 = parseInt(zero.innerHTML);
+    console.log("num1: " + num1);
+    console.log("num2: " + num2);
+
     if(display.innerHTML == 0) {
         display.innerHTML = zero;
     } else {
@@ -106,17 +150,18 @@ function btnDotClick() {
 }
 
 function btnEqlClick() {
-    display.innerHTML = display.innerHTML;
+    let sum = add();
+    display.innerHTML = sum;
 }
 
 function add() {
-    console.log("num1: " + num1);
-    let sum = parseInt(display.innerHTML);
-    let num2 = parseInt(display.innerHTML[display.innerHTML.length-1]);
-    sum = sum + num2;
-    num1 = num2;
-    console.log("num1 after update: " + num1);
-    console.log("num2: " + num2);
+    sum = num1 + num2;
     console.log("sum: " + sum);
+
     display.innerHTML = display.innerHTML + " + ";
+
+    num1 = sum;
+    console.log("num1 after update: " + num1);
+
+    return sum;
 }
