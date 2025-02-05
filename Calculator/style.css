@@ -2,10 +2,29 @@
     border: 1px solid black;
     width: 500px;
     height: 300px;
+    border-radius: 5px;
     text-align: center;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     font-size: x-large;
+}
+
+input {
+    padding: 0.5rem;
+    border: 1px solid grey;
+    font-size: large;
+}
+
+.numToDisplay {
+    border: 1px solid black;
+    height: 2rem;
+}
+
+button {
+    padding: 1rem;
+    width: 50px;
+    font-size:large;
+    font-weight: bold;
 }
