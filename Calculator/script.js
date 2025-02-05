@@ -86,8 +86,8 @@ function btn0Click() {
     }
 }
 function btnDotClick() {
-   
+    display.innerHTML = display.innerHTML + ".";
 }
 function btnEqlClick() {
-    
+    display.innerHTML = display.innerHTML;
 }
