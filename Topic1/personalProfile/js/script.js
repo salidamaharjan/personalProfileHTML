@@ -1,5 +1,6 @@
 const placesVisited = document.getElementById("visited");
 const videosCreated = document.getElementById("videos");
+const pokharaD = document.getElementById("pokhara");
 
 function redirectToPlaces(){
    let result = confirm("Do you want to go galleries to see places visited?");
@@ -16,4 +17,9 @@ function redirectToVideos(){
    } else {
     videosCreated.setAttribute("href", "./hobbies.html");
    }
+}
+
+function pokharaDetail() {
+   pokharaD.setAttribute("href", "https://en.wikipedia.org/wiki/Pokhara");
+   pokharaD.setAttribute("target", "_blank");
 }

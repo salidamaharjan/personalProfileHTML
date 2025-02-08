@@ -542,3 +542,11 @@
       justify-content: center;
       margin-top: 0;
     }
+
+    #pokhara, #pokhara:visited {
+      background-color: rgb(167, 198, 255);
+    }
+
+    #pokhara:visited {
+      color: blue;
+    }
