@@ -14,7 +14,6 @@
         font-family: "Trirong", serif;
       }
     </style>
-    <!-- <script src="js/script.js"></script> -->
   </head>
   <body>
     <div class="wrapper-div">
@@ -59,7 +58,7 @@
               <!-- anchor tag <a> </a> to navigate to pages -->
               <a
                 id="visited"
-                onclick="confirmRedirection()"
+                onclick="redirectToPlaces()"
                 style="
                   border: solid green 1px;
                   border-radius: 5px;
@@ -78,7 +77,8 @@
             I love taking picture. I love capturing moments. View my recordings
             <!-- anchor tag <a> </a> to navigate to pages -->
             <a
-              href="./galleries.html#videosCreated"
+              id="videos"
+              onclick="redirectToVideos()"
               style="
                 border: solid green 1px;
                 border-radius: 5px;
