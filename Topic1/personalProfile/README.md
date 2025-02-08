@@ -40,6 +40,5 @@ This website is created using HTML (Hypertext markup Language), internal CSS(Cas
 
 ## Future Development
 
-- Use JavaScript to support event handling.
 - Use BootStrap, Jquery.
 - Make a responsive design.
