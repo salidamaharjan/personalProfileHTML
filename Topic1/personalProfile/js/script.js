@@ -53,3 +53,11 @@ function mackinawDetail() {
    mackinawD.setAttribute("href", "https://en.wikipedia.org/wiki/Mackinac_Island");
    mackinawD.setAttribute("target", "_blank");
 }
+
+function changeColor(element) {
+   element.style.color =  "red";
+}
+
+function resetColor(element) {
+   element.style.color =  "purple";
+}
