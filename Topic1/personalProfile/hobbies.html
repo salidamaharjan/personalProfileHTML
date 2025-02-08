@@ -14,13 +14,14 @@
         font-family: "Trirong", serif;
       }
     </style>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="wrapper-div">
       <header class="header">
         <!--Using sematic html-->
         <div class="header-div">
-          <h1 class="h1">Personal Profile</h1>
+          <h1 class="h1" onclick="confirmVisitedPlaces()">Personal Profile</h1>
           <!--Navigation bar to display the section of the website-->
           <nav>
             <!-- anchor tag <a> </a> to navigate to pages -->
@@ -57,7 +58,7 @@
               nature and food. Check out the places I have seen
               <!-- anchor tag <a> </a> to navigate to pages -->
               <a
-                href="./galleries.html#placesVisited"
+                onclick="confirmRedirection()"
                 style="
                   border: solid green 1px;
                   border-radius: 5px;
