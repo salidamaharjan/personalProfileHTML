@@ -543,10 +543,11 @@
       margin-top: 0;
     }
 
-    #pokhara, #pokhara:visited {
+    #pokhara, #banff, #aspen, #newYork, #vegas, #mackinaw{
       background-color: rgb(167, 198, 255);
     }
 
-    #pokhara:visited {
+    #pokhara:visited, #banff:visited, #aspen:visited, #newYork:visited, #vegas:visited, #mackinaw:visited{
+      background-color: rgb(167, 198, 255);
       color: blue;
     }
