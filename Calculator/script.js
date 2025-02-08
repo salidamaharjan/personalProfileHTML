@@ -86,7 +86,7 @@ function btn9Click() {
 
 function btn0Click() {    
     if(display.innerHTML == 0) {
-        display.innerHTML = zero;
+        display.innerHTML = zero.innerHTML;
     } else {
         display.innerHTML = display.innerHTML + zero.innerHTML;
     }
@@ -119,17 +119,18 @@ function btnEqlClick() {
 }
   
 function add() {
+    if(display.innerHTML != 0) {
     display.innerHTML = display.innerHTML + "+";
     num1 = display.innerHTML[0].toString();
     for (let i = 1; i <= display.innerHTML.length-2; i++){
         let num = display.innerHTML[i].toString();
-        console.log("num", num);
+        // console.log("num", num);
         num1 = num1 + num;
     }
-    console.log("num1 after update: " + num1);
+    // console.log("num1 after update: " + num1);
 
     const indexOfOperator = display.innerHTML.indexOf("+");
-    console.log(indexOfOperator);
+    // console.log(indexOfOperator);
     num2 = display.innerHTML[display.innerHTML.length],toString();
     for(let i = display.innerHTML.length-1; i > indexOfOperator; i--){
     let num = display.innerHTML[i].toString();
@@ -137,19 +138,22 @@ function add() {
     }
     return parseFloat(num1) + parseFloat(num2);
 }
+}
 
 function minus() {
+    if(display.innerHTML == 0){display.innerHTML = "-"}else{
     display.innerHTML = display.innerHTML + "-";
+    }
     num1 = display.innerHTML[0].toString();
     for (let i = 1; i <= display.innerHTML.length-2; i++){
         let num = display.innerHTML[i].toString();
-        console.log("num", num);
+        // console.log("num", num);
         num1 = num1 + num;
     }
-    console.log("num1 after update: " + num1);
+    // console.log("num1 after update: " + num1);
 
     const indexOfOperator = display.innerHTML.indexOf("-");
-    console.log(indexOfOperator);
+    // console.log(indexOfOperator);
     num2 = display.innerHTML[display.innerHTML.length],toString();
     for(let i = display.innerHTML.length-1; i > indexOfOperator; i--){
     let num = display.innerHTML[i].toString();
@@ -163,13 +167,13 @@ function times() {
     num1 = display.innerHTML[0].toString();
     for (let i = 1; i <= display.innerHTML.length-2; i++){
         let num = display.innerHTML[i].toString();
-        console.log("num", num);
+        // console.log("num", num);
         num1 = num1 + num;
     }
-    console.log("num1 after update: " + num1);
+    // console.log("num1 after update: " + num1);
 
     const indexOfOperator = display.innerHTML.indexOf("*");
-    console.log(indexOfOperator);
+    // console.log(indexOfOperator);
     num2 = display.innerHTML[display.innerHTML.length],toString();
     for(let i = display.innerHTML.length-1; i > indexOfOperator; i--){
     let num = display.innerHTML[i].toString();
@@ -183,13 +187,13 @@ function divide() {
     num1 = display.innerHTML[0].toString();
     for (let i = 1; i <= display.innerHTML.length-2; i++){
         let num = display.innerHTML[i].toString();
-        console.log("num", num);
+        // console.log("num", num);
         num1 = num1 + num;
     }
-    console.log("num1 after update: " + num1);
+    // console.log("num1 after update: " + num1);
 
     const indexOfOperator = display.innerHTML.indexOf("/");
-    console.log(indexOfOperator);
+    // console.log(indexOfOperator);
     num2 = display.innerHTML[display.innerHTML.length],toString();
     for(let i = display.innerHTML.length-1; i > indexOfOperator; i--){
     let num = display.innerHTML[i].toString();
