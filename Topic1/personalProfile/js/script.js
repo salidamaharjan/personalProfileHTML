@@ -1,3 +1,4 @@
+// selecting the element and store in a variable
 const placesVisited = document.getElementById("visited");
 const videosCreated = document.getElementById("videos");
 const pokharaD = document.getElementById("pokhara");
@@ -7,6 +8,7 @@ const newYorkD = document.getElementById("newYork");
 const vegasD = document.getElementById("vegas");
 const mackinawD = document.getElementById("mackinaw");
 
+// create function to redirect to the places visited section on galleries page if the user clicks ok
 function redirectToPlaces(){
    let result = confirm("Do you want to go galleries to see places visited?");
    if(result){
@@ -15,6 +17,8 @@ function redirectToPlaces(){
     placesVisited.setAttribute("href", "./hobbies.html");
    }
 }
+
+// create function to redirect to the videos created section on galleries page if the user clicks ok
 function redirectToVideos(){
    let result = confirm("Do you want to go galleries to see videos created?");
    if(result){
@@ -24,6 +28,7 @@ function redirectToVideos(){
    }
 }
 
+// set external link for the detail of places which opens on the new tab
 function pokharaDetail() {
    pokharaD.setAttribute("href", "https://en.wikipedia.org/wiki/Pokhara");
    pokharaD.setAttribute("target", "_blank");
@@ -54,10 +59,12 @@ function mackinawDetail() {
    mackinawD.setAttribute("target", "_blank");
 }
 
+// change color to red
 function changeColor(element) {
    element.style.color =  "red";
 }
 
+// reset back the color
 function resetColor(element) {
    element.style.color =  "purple";
 }

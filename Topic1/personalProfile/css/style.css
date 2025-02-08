@@ -542,7 +542,7 @@
       justify-content: center;
       margin-top: 0;
     }
-
+    /* Use id to select the element and update css */
     #pokhara, #banff, #aspen, #newYork, #vegas, #mackinaw{
       background-color: rgb(167, 198, 255);
       border: solid blue 1px;
@@ -550,6 +550,7 @@
       padding: 2px 4px;
     }
 
+    /* Use id to select the element, create pseudoclass and update css */
     #pokhara:visited, #banff:visited, #aspen:visited, #newYork:visited, #vegas:visited, #mackinaw:visited{
       background-color: rgb(167, 198, 255);
       color: blue;
