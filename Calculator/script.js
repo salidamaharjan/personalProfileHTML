@@ -96,11 +96,26 @@ function btnDotClick() {
     display.innerHTML = display.innerHTML + ".";
 }
 
+function ac() {
+    display.innerHTML = 0;
+}
+
 function btnEqlClick() {
+    let expression = display.innerHTML;
+
+    if (expression.includes("+")) {
+        display.innerHTML = add();
+    } else if (expression.includes("-")) {
+        display.innerHTML = minus();
+    } else if (expression.includes("*")) {
+        display.innerHTML = times();
+    } else if (expression.includes("/")) {
+        display.innerHTML = divide();
+    }
     // display.innerHTML = add();
     // display.innerHTML = minus();
     // display.innerHTML = times();
-    display.innerHTML = divide();
+    // display.innerHTML = divide();
 }
   
 function add() {
@@ -142,6 +157,7 @@ function minus() {
     }
     return parseFloat(num1) - parseFloat(num2);
 }
+
 function times() {
     display.innerHTML = display.innerHTML + "*";
     num1 = display.innerHTML[0].toString();
@@ -161,6 +177,7 @@ function times() {
     }
     return parseFloat(num1) * parseFloat(num2);
 }
+
 function divide() {
     display.innerHTML = display.innerHTML + "/";
     num1 = display.innerHTML[0].toString();
@@ -180,6 +197,4 @@ function divide() {
     }
     return parseFloat(num1) / parseFloat(num2);
 }
-function ac() {
-    display.innerHTML = 0;
-}
+
