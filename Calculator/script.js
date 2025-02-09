@@ -100,22 +100,50 @@ function ac() {
     display.innerHTML = 0;
 }
 
+function addSym () {
+    if(display.innerHTML.includes("+") || display.innerHTML.includes("-")|| display.innerHTML.includes("*") ||display.innerHTML.includes("/")){
+        display.innerHTML = btnEqlClick();
+        // console.log("display.innerHTML", display.innerHTML);
+    }
+    display.innerHTML = display.innerHTML + "+";
+}
+
+function minusSym() {
+    if(display.innerHTML.includes("+") || display.innerHTML.includes("-")||display.innerHTML.includes("*") || display.innerHTML.includes("/")){
+        display.innerHTML = btnEqlClick();
+        // console.log("display.innerHTML", display.innerHTML);
+    }
+    display.innerHTML = display.innerHTML + "-";
+}
+
+function timesSym() {
+    if(display.innerHTML.includes("+") || display.innerHTML.includes("-")||display.innerHTML.includes("*") || display.innerHTML.includes("/")){
+        display.innerHTML = btnEqlClick();
+        // console.log("display.innerHTML", display.innerHTML);
+    }
+    display.innerHTML = display.innerHTML + "*";
+}
+
+function divideSym() {
+    if(display.innerHTML.includes("+") || display.innerHTML.includes("-")|| display.innerHTML.includes("*") ||display.innerHTML.includes("/")){
+        display.innerHTML = btnEqlClick();
+        // console.log("display.innerHTML", display.innerHTML);
+    }
+    display.innerHTML = display.innerHTML + "/";
+}
+
 function btnEqlClick() {
     let expression = display.innerHTML;
 
     if (expression.includes("+")) {
-        display.innerHTML = add();
+         return display.innerHTML = add();
     } else if (expression.includes("-")) {
-        display.innerHTML = minus();
+        return display.innerHTML = minus();
     } else if (expression.includes("*")) {
-        display.innerHTML = times();
+        return display.innerHTML = times();
     } else if (expression.includes("/")) {
-        display.innerHTML = divide();
+        return display.innerHTML = divide();
     }
-    // display.innerHTML = add();
-    // display.innerHTML = minus();
-    // display.innerHTML = times();
-    // display.innerHTML = divide();
 }
   
 function add() {
@@ -141,9 +169,11 @@ function add() {
 }
 
 function minus() {
-    if(display.innerHTML == 0){display.innerHTML = "-"}else{
-    display.innerHTML = display.innerHTML + "-";
-    }
+    if(display.innerHTML == 0){
+        display.innerHTML = "-";
+    } else {
+        display.innerHTML = display.innerHTML + "-";
+        }
     num1 = display.innerHTML[0].toString();
     for (let i = 1; i <= display.innerHTML.length-2; i++){
         let num = display.innerHTML[i].toString();
