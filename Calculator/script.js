@@ -9,8 +9,10 @@ let seven = document.getElementsByClassName("seven")[0];
 let eight = document.getElementsByClassName("eight")[0];
 let nine = document.getElementsByClassName("nine")[0];
 let zero = document.getElementsByClassName("zero")[0];
+
 let num1;
 let num2;
+
 function btn1Click() {
     // console.log(display.innerHTML);
     if(display.innerHTML == 0) {
