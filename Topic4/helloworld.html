@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function sayHello() {
+        alert("Hello world");
+        document.getElementById("hello-text").innerHTML = "Hello world!";
+        console.log("Hello world!");
+      }
+    </script>
+  </head>
+  <body onload="sayHello()">
+    <p>Before running JavaScript</p>
+    <div id="hello-text">This is the default text</div>
+    <p>After running JavaScript</p>
+  </body>
+</html>
