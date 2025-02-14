@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video and Audio Media</title>
+    <style>
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .blink_me-alarm {
+        animation: blinker 2s step-start infinite;
+        color: red;
+      }
+      .div1 {
+        width: 300px;
+        height: 25px;
+        border: 1px solid #4f2fb6;
+        transition: transform 2s;
+      }
+      .div1:hover {
+        width: 300px;
+        height: 25px;
+        transform: rotate(360deg);
+      }
+    </style>
+    <link rel="stylesheet" href="./css/mysite.css" type="text/css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/js/bootstrap.min.js"
+      integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <div align="center">
+      <h1>Video and Audio Media</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/vKyLK_cNQI4?si=uTpwPDjY9Z2rO0Ju"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <h4>Grand Canyon University Doctrinal Statement</h4>
+      <video width="320" height="240" controls>
+        <source src="./media/Duluth, Minnesota.mp4" type="video/mp4" />
+        Your browser does not support video tag.
+      </video>
+      <br />
+      <h4 class="blink_me-alarm">Student Support Video Clip</h4>
+      <br />
+      <audio controls>
+        <source
+          src="./media/rainy-day-in-town-with-birds-singing-194011.mp3"
+          type="audio/mp3"
+        />
+        Your browser does not support audio tag.
+      </audio>
+      <br />
+      <br />
+      <h4 class="blink_me-alarm">Student Support Audio Clip</h4>
+      <br />
+      <div class="div1">GCU is a great university.</div>
+      <br />
+      <a href="./index.html">Back to Main Page</a>
+    </div>
+  </body>
+</html>
