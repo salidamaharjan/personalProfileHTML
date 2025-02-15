@@ -14,13 +14,13 @@ function redirectToPlaces(){
 }
 
 // create function to redirect to the videos created section on galleries page if the user clicks ok
-function redirectToVideos(){
-   let result = confirm("Do you want to go galleries to see videos created?");
-   if(result){
+function redirectToVideos(){  
     videosCreated.setAttribute("href", "./galleries.html#videosCreated");
-   } else {
-    videosCreated.setAttribute("href", "./hobbies.html");
-   }
+}
+
+function redirectToMusic() {
+   // use jQuery to find the element and set attribute
+   $("#favMusic").attr("href", "./galleries.html#musicCollection");
 }
 
 // set external link for the detail of places which opens on the new tab
