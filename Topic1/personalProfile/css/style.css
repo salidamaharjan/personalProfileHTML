@@ -512,11 +512,11 @@
     .message-form {
       display: flex;
       flex-direction: column;
-      margin-top: 7rem;
+      /* margin-top: 7rem; */
       gap: 2rem;
       border: solid 2px green;
       border-radius: 5px;
-      padding: 3rem;
+      padding: 2rem;
       font-size: x-large;
       font-family: sans-serif;
       background-color: rgb(160, 189, 160);
@@ -539,7 +539,7 @@
     .contact {
       display: flex;
       justify-content: center;
-      margin-top: 0;
+      margin-bottom: 1rem;
     }
     /* Use id to select the element and update css */
     #pokhara, #banff, #aspen, #newYork, #vegas, #mackinaw{
