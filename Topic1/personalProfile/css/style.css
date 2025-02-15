@@ -545,6 +545,7 @@
     #pokhara, #banff, #aspen, #newYork, #vegas, #mackinaw{
       background-color: rgb(167, 198, 255);
       border: solid blue 1px;
+      color: black;
       border-radius: 5px;
       padding: 2px 4px;
     }
