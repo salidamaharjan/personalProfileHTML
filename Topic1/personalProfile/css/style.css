@@ -200,7 +200,6 @@
       .aside-exp {
         background-image: url(../assets/images/exp.jpg);
         border: 1px solid rgb(244, 231, 82);
-        height: 20dvh;
       }
 
       .aside-skill {
@@ -544,7 +543,7 @@
     /* Use id to select the element and update css */
     #pokhara, #banff, #aspen, #newYork, #vegas, #mackinaw{
       background-color: rgb(167, 198, 255);
-      border: solid blue 1px;
+      border-bottom:solid blue 1px;
       color: black;
       border-radius: 5px;
       padding: 2px 4px;
