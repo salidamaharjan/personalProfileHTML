@@ -10,12 +10,7 @@ const mackinawD = document.getElementById("mackinaw");
 
 // create function to redirect to the places visited section on galleries page if the user clicks ok
 function redirectToPlaces(){
-   let result = confirm("Do you want to go galleries to see places visited?");
-   if(result){
     placesVisited.setAttribute("href", "./galleries.html#placesVisited");
-   } else {
-    placesVisited.setAttribute("href", "./hobbies.html");
-   }
 }
 
 // create function to redirect to the videos created section on galleries page if the user clicks ok

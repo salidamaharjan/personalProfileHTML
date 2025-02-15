@@ -83,22 +83,61 @@
             <p>
               I love traveling to new places. Experiences the culture, art,
               nature and food. Check out the places I have seen
-              <!--  anchor tag <a> </a> to navigate to pages 
-                  - use onclick attribute to call function when clicked on the element 
-              -->
-              <a
-                id="visited"
-                onclick="redirectToPlaces()"
-                style="
-                  border: solid green 1px;
-                  border-radius: 5px;
-                  padding: 3px;
-                  color: green;
-                  font-size: x-large;
-                "
-                >Places Visited</a
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-primary"
+                data-toggle="modal"
+                data-target="#exampleModal"
+                style="width: max-content"
               >
+                Places Visited
+              </button>
+
+              <!-- Modal -->
             </p>
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Navigating to Galleries page
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Do you want to go galleries to see places visited?
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      No
+                    </button>
+                    <a id="visited" onclick="redirectToPlaces()">
+                      <button type="button" class="btn btn-primary">Yes</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section class="section-main recording">
