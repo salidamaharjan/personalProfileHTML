@@ -4,7 +4,7 @@ Personal Profile is a website which lets you know more about me.
 
 ## Description
 
-This website is created using HTML (Hypertext markup Language), internal CSS(Cascading Style sheet) and JavaScript language. The landing page of the website is About Me section where you can find my introduction, education background, skills, experiences and goal as follows:
+This website is created using HTML (Hypertext markup Language), internal CSS(Cascading Style sheet), JavaScript language, Bootstrap CSS framework and jQuery. The landing page of the website is About Me section where you can find my introduction, education background, skills, experiences and goal as follows:
 
 ![Image of the landing page od the website](assets/images/AboutMePage.png)
 
@@ -14,6 +14,7 @@ This website is created using HTML (Hypertext markup Language), internal CSS(Cas
 - The viewer can hover on the name of places visited on the LifeEvents page which shows the image of the place. You can see change in text color when hovered.
 - The user can find the link which opens on the new tabs to give more details about the place.
 - The color of the visited link change to blue.
+- The website has responsive UI.
 
 ## Table of Content
 
@@ -36,9 +37,10 @@ This website is created using HTML (Hypertext markup Language), internal CSS(Cas
 - [W3Schools](https://www.w3schools.com/html/)
 - [SoloLearn Activity](https://www.sololearn.com/en/learn)
 - [JavaScript](https://www.w3schools.com/js/js_whereto.asp)
+- [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/)
+- [jQuery](https://www.w3schools.com/JQuery/jquery_selectors.asp)
 - Class Discussion
 
 ## Future Development
 
-- Use BootStrap, Jquery.
-- Make a responsive design.
+- Code review
