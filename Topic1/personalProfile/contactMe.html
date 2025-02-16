@@ -31,41 +31,60 @@
         <div class="header-div">
           <h1 class="h1">Personal Profile</h1>
           <!-- nav bar from bootstrap -->
-          <nav aria-label="page navigation">
-            <ul class="pagination">
-              <li class="page-item">
-                <h2 class="about-me tab">
-                  <a class="page-link" href="./aboutMe.html">About Me</a>
-                </h2>
-              </li>
-              <li class="page-item" aria-current="page">
-                <h2 class="hobbies tab">
-                  <a class="page-link" href="./hobbies.html">Hobbies</a>
-                </h2>
-              </li>
-              <li class="page-item">
-                <h2 class="events tab">
-                  <a class="page-link" href="./lifeEvents.html">Life Events</a>
-                </h2>
-              </li>
-              <li class="page-item">
-                <h2 class="tab">
-                  <a class="page-link" href="./galleries.html">Galleries</a>
-                </h2>
-              </li>
-              <li class="page-item">
-                <h2 class="events tab">
-                  <a class="page-link" href="./futureEvents.html"
-                    >Future Events</a
-                  >
-                </h2>
-              </li>
-              <li class="page-item">
-                <h2 class="contact-me tab-selected active">
-                  <a class="page-link">Contact Me</a>
-                </h2>
-              </li>
-            </ul>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a
+              class="navbar-brand"
+              style="
+                background-color: rgba(0, 128, 0, 0.778);
+                color: white;
+                padding: 6px;
+                font-size: x-large;
+                font-weight: bold;
+              "
+              >Contact Me</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <h2 class="contact-me tab">
+                    <a class="nav-link" href="./aboutMe.html">About Me</a>
+                  </h2>
+                </li>
+                <li class="nav-item">
+                  <h2 class="hobbies tab">
+                    <a class="nav-link" href="./hobbies.html">Hobbies</a>
+                  </h2>
+                </li>
+                <li class="nav-item">
+                  <h2 class="events tab">
+                    <a class="nav-link" href="./lifeEvents.html">Life Events</a>
+                  </h2>
+                </li>
+                <li class="nav-item">
+                  <h2 class="tab">
+                    <a class="nav-link" href="./galleries.html">Galleries</a>
+                  </h2>
+                </li>
+                <li class="nav-item">
+                  <h2 class="events tab">
+                    <a class="nav-link" href="./futureEvents.html"
+                      >Future Events</a
+                    >
+                  </h2>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </header>

@@ -41,12 +41,6 @@
         .h1 {
           font-size:x-large;
         }
-        .header {
-          height: 340px;
-        }
-        main {
-          margin-top: 180px;
-        }
         .section-main h3 {
           font-size: medium;
         }
@@ -123,8 +117,26 @@
         .contact-main {
           margin-top: 20rem;
         }
+        .navbar .navbar-brand{
+          font-size:x-small;
+        }
+        main .aside-section {
+          grid-template-columns: 1fr;
+        }
+        .hobbies-header {
+          flex-direction: column;
+        }
       }
-
+      .nav-link {
+        font-size: small;
+      }
+      .navbar-brand {
+        background-color: rgba(0, 128, 0, 0.778);
+        color: white;
+        padding: 6px;
+        font-size: x-large;
+        font-weight: bold;
+      }
       .header-div {
         text-align: center;
         height: 25px;
