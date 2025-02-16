@@ -33,6 +33,98 @@
         background-color: rgb(247, 243, 234);
       }
 
+      @media screen and (max-width: 1260px) {
+        .pagination {
+            flex-direction: column;
+            justify-items: center;
+        }
+        .h1 {
+          font-size:x-large;
+        }
+        .header {
+          height: 340px;
+        }
+        main {
+          margin-top: 180px;
+        }
+        .section-main h3 {
+          font-size: medium;
+        }
+        .section-main {
+          align-items: center;
+        }
+        .profile-img {
+          width: 100px;
+          height: 100px;
+        }
+        .message-form .send-message, .contact .reach, .place-bucket ol li, .place-bucket .instruction, .page-link, .section-main p,li,div, .table tbody,.section-main p .btn, .table thead tr {
+          font-size: small;
+        }
+        .bucketlist {
+          align-self: start;
+        }
+
+        .place-bucket .chitwan:hover::before {
+          content: url(../assets/images/Sauraha.webp);
+        position: absolute;
+        top: -360px;
+        left: -280px;
+        transform: scale(0.3);
+        }
+
+        .place-bucket .dolakha:hover::before {
+          content: url(../assets/images/Dolakha.jpg);
+          position: absolute;
+          top: -80px;
+          left: -480px;
+          transform: scale(0.2);
+          height: 30px;
+        }
+        .place-bucket .chicago:hover::before {
+          content: url(../assets/images/chicago.avif);
+          position: absolute;
+          top: -170px;
+          left: -290px;
+          transform: scale(0.3);
+          height: 100px;
+        }
+        .place-bucket .chandragiri:hover::before {
+          content: url(../assets/images/chandragiri.jpg);
+          position: absolute;
+          top: -230px;
+          left: -100px;
+          transform: scale(0.4);
+          height: 100px;
+        }
+        .place-bucket .sd:hover::before {
+          content: url(../assets/images/sd.jpg);
+          position: absolute;
+          top: -290px;
+          left: -100px;
+          transform: scale(0.5);
+          height: 100px;
+        }
+
+        .place-bucket .oc:hover::before {
+          content: url(../assets/images/oc.jpeg);
+          position: absolute;
+          top: -370px;
+          left: -300px;
+          transform: scale(.3);
+        }
+        main .home, main .opportunity{
+          height: 400px;
+        }
+        .video-div, .audio-div {
+          flex-direction: column;
+          gap: 1rem;
+          /* justify-items: center; */
+        }
+        .contact-main {
+          margin-top: 20rem;
+        }
+      }
+
       .header-div {
         text-align: center;
         height: 25px;
@@ -553,4 +645,30 @@
     #pokhara:visited, #banff:visited, #aspen:visited, #newYork:visited, #vegas:visited, #mackinaw:visited{
       background-color: rgb(167, 198, 255);
       color: blue;
+    }
+    .table thead tr {
+      font-size: larger;
+    } 
+    .table tbody {
+      font-size: larger;
+    }
+
+   .btn {
+    width: max-content;
+      font-size: large;
+    }
+    .contact-main {
+          background-image: url(./assets/images/contact.jpeg);
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          height: 100dvh;
+          margin-top: 10rem;    
+    }
+    .reach {
+      font-family: sans-serif;
+      font-size: x-large;
+      font-weight: bold;
+      background-color: white;
+      padding: 2px 6px;
+      margin-bottom: 3rem;
     }
