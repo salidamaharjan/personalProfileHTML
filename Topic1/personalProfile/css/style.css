@@ -33,6 +33,7 @@
         background-color: rgb(247, 243, 234);
       }
 
+      /* using media screen to make responsive UI for screen width less than 1260 px */
       @media screen and (max-width: 1260px) {
         .pagination {
             flex-direction: column;
