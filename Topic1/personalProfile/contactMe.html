@@ -99,29 +99,53 @@
         "
       >
         <article class="section-main section-header form-msg">
-          <form class="message-form">
-            <div>
-              <label for="name">Enter your name: </label>
+          <!-- Using form from bootstrap -->
+          <!-- using POST method containing posted form elements in JSON format -->
+          <form
+            class="message-form"
+            method="POST"
+            action="https://postman-echo.com/post"
+          >
+            <div class="form-group">
+              <label for="name" style="font-size: larger"
+                >Enter your name:
+              </label>
               <input
                 style="font-size: larger; width: 300px; border-radius: 5px"
                 type="text"
                 name="name"
                 id="name"
                 required
+                class="form-control"
               />
             </div>
-            <div>
-              <label for="email">Enter your email: </label>
+            <div class="form-group">
+              <label for="email" style="font-size: larger"
+                >Enter your email:
+              </label>
               <input
                 style="font-size: larger; width: 300px; border-radius: 5px"
                 type="email"
                 name="email"
                 id="email"
                 required
+                class="form-control"
+                aria-describedby="emailHelp"
               />
+              <small
+                id="emailHelp"
+                class="form-text text-muted"
+                style="font-size: larger"
+                >We'll never share your email with anyone else.</small
+              >
             </div>
-            <div>
-              <label for="message">Type Your Message: </label>
+            <div
+              class="form-group"
+              style="display: flex; flex-direction: column"
+            >
+              <label for="message" style="font-size: larger"
+                >Type Your Message:
+              </label>
               <textarea
                 style="font-size: larger; border-radius: 5px"
                 type="textarea"
@@ -130,9 +154,7 @@
                 required
               ></textarea>
             </div>
-            <div style="text-align: center">
-              <input class="send-message" type="submit" value="Send Message" />
-            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
           </form>
         </article>
         <article class="contact">
